@@ -263,7 +263,7 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 30px;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -280,11 +280,6 @@ nav ul li a:hover {
     color: #ccc;
   }
 
-  .social-icons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
 
   .social-icons img {
     width: 24px;
