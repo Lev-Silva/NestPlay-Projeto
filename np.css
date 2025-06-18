@@ -252,14 +252,14 @@ nav ul li a:hover {
     background-color: #65c8cc;
 }
 
-footer {
+  footer {
     background-color: #030303;
     padding: 30px 20px;
     font-size: 0.9rem;
     color: #fff;
-}
+  }
 
-.footer-content {
+  .footer-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -267,45 +267,35 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-}
+  }
 
-.footer-section {
+  .footer-section {
     flex: 1 1 200px;
     min-width: 200px;
-}
+    margin-bottom: 20px;
+  }
 
-.footer-section p {
+  .footer-section p {
     margin: 6px 0;
     color: #ccc;
-}
-.social-icons {
+  }
+
+  .social-icons {
     display: flex;
     gap: 10px;
-}
+    justify-content: center;
+  }
 
-.social-icons img {
-    width: 20px;
-    height: 20px;
+  .social-icons img {
+    width: 24px;
+    height: 24px;
     filter: brightness(0) invert(1);
     transition: transform 0.3s;
-}
+  }
 
-.social-icons2 img {
-    width: 30px;
-    height: 20px;
-    filter: brightness(0) invert(1);
-    transition: transform 0.3s;
-}
-
-.social-icons img:hover {
+  .social-icons img:hover {
     transform: scale(1.2);
-}
-.social-icons2 img:hover {
-    transform: scale(1.2);
-}
-    .footer-section {
-        margin-bottom: 20px;
-    }
+  }
 
 @media (max-width: 768px) {
     
