@@ -278,15 +278,29 @@ footer {
     margin: 6px 0;
     color: #ccc;
 }
-.redes-footer a img {
-    width: 24px;
-    height: 24px;
-    margin: 0 8px;
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
     filter: brightness(0) invert(1);
     transition: transform 0.3s;
 }
 
-.redes-footer a img:hover {
+.social-icons2 img {
+    width: 30px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+.social-icons2 img:hover {
     transform: scale(1.2);
 }
     .footer-section {
