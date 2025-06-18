@@ -152,15 +152,6 @@ nav ul li a:hover {
     background-color: #a03bcc;
 }
 
-footer {
-    background-color: #030303;
-    text-align: center;
-    padding: 15px;
-    border-top: 1px solid #000;
-    font-size: 0.9rem;
-}
-
-/* Missão, Visão e Valores */
 .missao-visao-valores {
     display: flex;
     gap: 30px;
@@ -263,49 +254,44 @@ footer {
 
 footer {
     background-color: #030303;
-    text-align: center;
-    padding: 15px;
-    border-top: 1px solid #000;
+    padding: 30px 20px;
     font-size: 0.9rem;
+    color: #fff;
 }
 
 .footer-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-footer p {
-    margin: 0;
+.footer-section {
+    flex: 1 1 200px;
+    min-width: 200px;
 }
 
-.social-icons {
-    display: flex;
-    gap: 10px;
+.footer-section p {
+    margin: 6px 0;
+    color: #ccc;
 }
-
-.social-icons img {
-    width: 20px;
-    height: 20px;
+.redes-footer a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
     filter: brightness(0) invert(1);
     transition: transform 0.3s;
 }
 
-.social-icons2 img {
-    width: 30px;
-    height: 20px;
-    filter: brightness(0) invert(1);
-    transition: transform 0.3s;
-}
-
-.social-icons img:hover {
+.redes-footer a img:hover {
     transform: scale(1.2);
 }
-.social-icons2 img:hover {
-    transform: scale(1.2);
-}
+    .footer-section {
+        margin-bottom: 20px;
+    }
 
 @media (max-width: 768px) {
     
@@ -352,10 +338,16 @@ footer p {
         padding: 0 10px;
     }
 
-    .footer-content {
+     .footer-content {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
 
     .social-icons,
     .social-icons2 {
